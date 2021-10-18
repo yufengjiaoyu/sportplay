@@ -4,7 +4,7 @@ package com.deyunjiaoyu.sportplay.bean;
 
 import java.util.List;
 
-public class MainMenu {
+public class  MainMenu {
 
     private int id;
     private String title;

@@ -14,7 +14,7 @@
             <result column="spath" property="path"></result>
         </collection>
     </resultMap>
-    <select id="getMenus" resultMap="MainMenu" >
+    <select id="getMenus" resultMap="menuMap" >
         SELECT mm.*,sm.id as sid ,sm.title as stitle,sm.path as spath FROM mainmenu mm , submenu sm WHERE mm.id = sm.mid;
     </select>
 </mapper>

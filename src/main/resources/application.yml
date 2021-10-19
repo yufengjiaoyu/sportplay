@@ -13,4 +13,4 @@ mybatis:
   type-aliases-package: com.deyunjiaoyu.sportplay
 #  type-aliases-package: com.example.demo.model
 server:
-  port: 9000
+  port: 9001
